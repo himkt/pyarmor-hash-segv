@@ -1,0 +1,12 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = [ "setuptools>=64", "wheel" ]
+
+[project]
+name = "pyarmor_segv"
+version = "0.0.1"
+requires-python = ">=3.13,<3.14"
+
+dependencies = [
+    "pyarmor==9.2.3",
+]
